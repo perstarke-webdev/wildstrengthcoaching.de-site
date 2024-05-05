@@ -22,7 +22,7 @@
      style="{% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ overlay_img_path }}');{% endif %}; height: 100vh; background-size: cover; display: flex; flex-direction: column; justify-content: center; align-items: center;">
   {% if page.header.overlay_color or page.header.overlay_image %}
     <div class="wrapper">
-      <h1 id="page-title" class="page__title" itemprop="headline">
+      <h1 id="page-title" class="page__title" itemprop="headline" style="color: #ACD037">
           {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
       </h1>
       {% if page.header.show_overlay_excerpt != false and page.excerpt %}
