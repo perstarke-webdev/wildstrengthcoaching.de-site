@@ -74,5 +74,24 @@
 
     {% include scripts.html %}
 
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+  var mySwiper = new Swiper('.swiper', {
+    // Optional parameters
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    // Enable smooth sliding
+    speed: 400,
+  });
+});
+
+    </script>
+
   </body>
 </html>
