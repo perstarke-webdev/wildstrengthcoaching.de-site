@@ -23,16 +23,16 @@ excerpt: "**Placeholder Sub Header, e.g. Slogan or anything like that**"
 round-images:
     - image-path: "/assets/images/sydney-2.webp"
       size: "third"
-      header: "Athlete "
-      caption: "Testimonial"
+      header: "Angebot 1"
+      caption: "Beschreibung"
     - image-path: "/assets/images/sydney-3.webp"
       size: "third"
-      header: "Athlete "
-      caption: "Testimonial"
+      header: "Angebot 2"
+      caption: "Beschreibung"
     - image-path: "/assets/images/sydney-4.webp"
       size: "third"
-      header: "Athlete "
-      caption: "Testimonial"
+      header: "Angebot 3"
+      caption: "Beschreibung"
 
 image-text-row:
     - excerpt: "Welcome to Wild Strength Coaching, your premier destination for powerlifting coaching and training. This is a placeholder text!"
@@ -73,31 +73,13 @@ image-text-row:
     <h1>Coaching Angebote</h1>
 
     <div class="notice--success">
-        <h4>Notice</h4>
-        <p>Placeholder note</p>
+        <p style="font-size: 120%">Ungeachtet deiner Erfahrungen und Zielsetzungen findest du hier maßgeschneiderte Coaching-Angebote, die sich auch deinen zeitlichen und finanziellen Rahmenbedingungen anpassen.</p>
     </div>
 
     <hr>
 
-    <div class="box-container">
+    {% include round-images %}
 
-
-        <div class="box box--success box-third">
-            <h4>Angebot 1</h4>
-            <p>Text zu Angebot 1</p>
-        </div>
-
-        <div class="box box--success box-third">
-            <h4>Angebot 2</h4>
-            <p>Text zu Angebot 2</p>
-        </div>
-
-        <div class="box box--success box-third">
-            <h4>Angebot 2</h4>
-            <p>Text zu Angebot 2</p>
-        </div>
-
-    </div>
 
 </section>
 
@@ -120,7 +102,6 @@ image-text-row:
 
     <h1>Testimonials</h1>
 
-    {% include round-images %}
 
 </section>
 
@@ -143,13 +124,21 @@ image-text-row:
 
     <h1>Kontakt</h1>
 
-    <p>
-        Kontaktformular
-    </p>
+    <div class="notice--success">
+        <p>Schreib mir gerne über Instagram oder per E-Mail, ich freue mich auf deine Nachricht!</p>
+        <a href="https://www.instagram.com/wildstrengthcoaching/" class="btn btn--success btn--large"  target="_blank" rel="noopener noreferrer nofollow"><i class='fab fa-instagram'></i> Instagram</a>
+        <a href="mailto: jan@wildstrengthcoaching.de" class="btn btn--success btn--large"><i class='fa fa-envelope'></i> E-Mail</a>
+    </div>
 
-    <p>
-        Calendly
-    </p>
+
+    <div class="notice--success">
+    <h3>Oder buche dir hier direkt dein Erstgespräch:</h3>
+
+    <!-- Calendly inline widget begin -->
+    <div class="calendly-inline-widget" data-url="https://calendly.com/per-starke-webdev/30min?primary_color=00adb5" style="min-width:320px;height:700px;"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    <!-- Calendly inline widget end -->
+    </div>
 
 
 </section>
