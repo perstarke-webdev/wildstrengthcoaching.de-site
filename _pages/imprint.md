@@ -19,16 +19,21 @@ Deutschland
 
 #### Kontakt
 Tel.: +49 160 3451187                                                                                                              
-E-Mail: jan@wildstrengthcoaching.de
+E-Mail: jan_at_wildstrengthcoaching.de
 
 
 ## Datenschutzerklärung
 
 #### Geltungsbereich
-Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den vorstehend genannten Anbieter Jan Wildner auf dieser Website (im folgenden “Angebot”) auf.<br />
+Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den vorstehend genannten Anbieter Jan Lukas Wildner auf dieser Website (im folgenden “Angebot”) auf.<br />
 <br />
 Die rechtlichen Grundlagen des Datenschutzes finden sich in der Datenschutzgrundverordnung (DSGVO), dem Bundesdatenschutzgesetz (BDSG) und dem Telemediengesetz (TMG).<br />
 <br />
+
+#### Hinweis zur EU-Verbraucherschlichtungsstelle
+
+Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit, die Sie unter [https://ec.europa.eu/consumers/odr/](https://ec.europa.eu/consumers/odr/) finden. Wir sind weder bereit noch verpflichtet, an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+
 
 #### Zugriffsdaten/ Server-Logfiles
 Der Webspace-Provider des Anbieters erhebt Daten über jeden Zugriff auf das Angebot (so genannte Serverlogfiles). Zu diesen Zugriffsdaten gehören:<br />
